@@ -1,0 +1,9 @@
+{
+  "name": "HealAI - Smart Home Remedies & Care",
+  "description": "An AI-powered healthcare assistant providing instant home remedies, quick solutions for common ailments, and conversational medical guidance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
