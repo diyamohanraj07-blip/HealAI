@@ -1,0 +1,15 @@
+# Project Dependencies (Node.js/npm)
+# This project uses npm for dependency management.
+# Run 'npm install' to install the following:
+
+@google/genai@^1.41.0
+react@^19.2.4
+react-dom@^19.2.4
+lucide-react (recommended)
+framer-motion (recommended)
+
+# Dev Dependencies:
+typescript@~5.8.2
+vite@^6.2.0
+@vitejs/plugin-react@^5.0.0
+@types/node@^22.14.0
