@@ -1,63 +1,20 @@
-# HealAI - Smart Home Remedies & Care
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-HealAI is an AI-powered healthcare assistant providing instant home remedies, quick solutions for common ailments, and conversational medical guidance. Built with React, TypeScript, and Google's Gemini AI.
+# Run and deploy your AI Studio app
 
-## 🚀 Features
+This contains everything you need to run your app locally.
 
-- **Symptom Search**: Get instant AI-powered home remedies and medical advice.
-- **Telehealth**: Connect with virtual doctors via voice, video, or chat using Gemini Live API.
-- **Mental Health Support**: Dedicated conversational agent for mental wellness.
-- **Vision Analysis**: Analyze medical images using Gemini's multimodal capabilities.
-- **Symptom Tracker**: Keep a log of your health journey.
-- **Nearby Facilities**: Locate healthcare providers in your area.
-- **Medical History**: Securely store and review your past consultations and records.
+View your app in AI Studio: https://ai.studio/apps/2b2a5782-bc9b-4767-9bec-05e9a67a95f1
 
-## 🛠️ Tech Stack
+## Run Locally
 
-- **Frontend**: React 19, TypeScript, Tailwind CSS
-- **AI**: Google Gemini API (@google/genai)
-- **Build Tool**: Vite
-- **Icons**: Lucide React / Emojis
+**Prerequisites:**  Node.js
 
-## 📦 Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/healai.git
-   cd healai
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Set up environment variables:
-   Create a `.env` file in the root directory and add your Gemini API key:
-   ```env
-   GEMINI_API_KEY=your_api_key_here
-   ```
-
-4. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-## 📂 Project Structure
-
-```text
-├── components/          # Reusable UI components
-├── services/            # API integration services (Gemini, Live API)
-├── App.tsx              # Main application entry point
-├── types.ts             # TypeScript interfaces and enums
-├── constants.tsx        # Application constants and prompts
-├── index.tsx            # React DOM rendering
-└── vite.config.ts       # Vite configuration
-```
-
-## 🛡️ License
-
-This project is licensed under the MIT License.
-
----
-*Disclaimer: HealAI is an AI assistant and should not replace professional medical advice. Always consult with a qualified healthcare provider for serious conditions.*
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
